@@ -1,0 +1,18 @@
+<html>
+	<head>
+		<title>CSS</title>
+			<style type="text/css">
+			h1{ color: #FFFFFF; font-size: 50px; border: dashed 5px #00FF00;}
+			h3{ color: #00AAFF;}
+			body{ background: #FFAAAA; font-family: "Trebuchet MS", Verdana, Arial, serif;}
+			</style>
+	</head>
+	<body> 
+	
+	<h1>big</h1>
+	<h3>small</h3>
+	<h6>asd</h6>
+	<p>This is my First CSS paragraph</p>
+	</body>
+</html>
+		

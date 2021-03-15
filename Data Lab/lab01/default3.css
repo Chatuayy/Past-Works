@@ -1,0 +1,216 @@
+﻿div#wrapper {
+	min-width:600px;
+	box-shadow: 0px 0px 4px 4px lightgray;
+	/*fallback for browser not supporting shadow*/
+	border-left:1px solid #AAAAAA; 
+	border-right:1px solid #AAAAAA;
+	
+	/*Set top padding to 0.3em so we have little space at the top of the page*/
+	padding-top: 0.3em;
+	
+	/*Set margin to auto*/
+	margin: auto;
+	
+	/*Set width to 70%*/
+	width: 80%;
+
+}
+
+body {	
+	font-family:sans-serif;
+	margin:0px;
+}
+
+div#div_main{
+	position:relative;	
+}
+
+div#div_header{
+
+	/*Set font size to 2em*/
+	font-size: 2em;
+	
+	/*Set font weight to 700*/
+	font-weight: 700;
+	
+	/*Set font variant to small-caps*/
+	font-variant: small-caps;
+	
+	/*Set padding to 0.7 em to have a larger heading*/
+	padding: 0.7em;
+		
+}
+
+div#div_subhead{/*div which contains menu*/
+
+	
+	/*Set background color to #F577A6 */
+	background: #F577A6;
+	
+	/*Set bottom border to 1pixel solid line with color #333438*/
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #333333;
+
+}
+
+div#div_left{ /*blank panel on the left side of the main content*/
+	position:absolute;
+	top:0px;
+	left:0px;
+	bottom:0px;
+	width:10%;
+	border-right: 1px solid #F577A6;
+	/*set background color to #F5E1E9*/
+	background: #F5E1E9;
+	
+}
+
+div#div_content{	
+	
+	width:80%;
+	padding:1em 0em;
+	min-height: 400px;
+	
+	/*Set left margin to 10% so the main content does not overlap with the empty panel on the left*/
+	margin-left: 10%;
+}
+
+div#div_footer{
+	/*Set top border to a 3-pixel solid line with color #F577A6*/
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #F577A6;
+	
+	/*Center the text*/
+	text-align: center;
+	
+	/*Set padding of all sides to 1em*/
+	padding: 1em;
+}
+
+div#div_footer:after{
+	content: 'Adapted from "For Women-Female" theme from wordpress.com';
+}
+
+ul#menu{
+	
+	padding:0.6em;
+	/*Set list-style-type to none to remove the list bullets*/
+	list-style-type: none;
+	
+	/*Set font size to 0.9em*/
+	font-size: 0.9em;
+	
+	/*Set margin of all sides to 0*/
+	margin: 0px;
+	
+}
+
+#menu li{
+	/*Center the text*/
+	text-align: center;
+	
+	/*Set display to inline so all <li> are on the same line. By default, <li> is a block element*/
+	display: inline;
+	
+	
+	/*Set the right border to dashed white line (1 pixel). This will act as a separator for menus.*/
+	border-right-width: 1px;
+	border-right-style: dashed;
+	border-right-color: #FFFFFF;
+	
+}
+
+#menu a{
+	/*Set font family to Verdana, sans-serif so we have a different font just for the menu*/
+	font-family: Verdana, sans-serif;
+	
+	
+	/*Set padding to 0.6 em to have a bigger menu items*/
+	padding: 0.6em;
+	
+	/*Set font color to white*/
+	color: #FFFFFF;
+	
+}
+
+#menu a:link, #menu a:visited{
+	/*Set text-decoration to none to remove link underlines*/
+	text-decoration: none;
+	
+	
+}
+
+#menu a:hover, #menu a:active{
+	/*Set text-decoration to underline because we want an underline when mouse is over the menu.*/
+	text-decoration: underline;
+	
+	/*Set background color to #DE4B82 so the background color changes when mouse is over.*/
+	background: #DE4B82;
+	
+}
+
+h2{
+	margin-top:0.4em;
+	margin-bottom:0.4em;	
+	
+	/*Set font color to #CE658B*/
+	color: #CE658B*;
+	
+	/*Set left padding to 1em to have a little indentation.*/
+	padding-left: 1em;
+	
+	/*Set bottom border to a 2pixel dotted line with color #F5C8DA. */
+	border-bottom-width: 2px;
+	border-bottom-style: dotted;
+	border-bottom-color: #F5C8DA;
+	
+}
+
+.form label{
+	display: block;
+	margin-right:10px;
+	
+	/*Align the text to the right*/
+	text-align: right;
+	
+	/*Set text to bold*/
+	font-weight: bold;
+	
+	/*Fix the width to 200px.*/
+	width: 200px;
+	
+	/*Set float property to left so that the labels are on the left of text fields*/
+	float: left;
+	
+	
+}
+
+.form input{
+	padding: 4px 2px;
+	margin: 2px 2px 10px 10px;
+}
+
+.form input[type="text"], .form input[type="password"]{
+	display:block;
+	width:200px;	
+}
+.form input[type="submit"]{
+	/*Set width to 150 pixels to have a big submit button*/
+	width: 150px;
+}
+
+.form input[type="checkbox"]{
+	display:block;
+}
+
+.form select{
+	padding: 4px 2px;
+	display:block;
+	margin: 2px 2px 10px 10px;
+}
+
+.center{
+	text-align:center;
+}
